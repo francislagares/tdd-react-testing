@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Sydney",
+    "phone": "333-333-3333",
+    "email": "laith@hotmail.com",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1635150103699-13fe04ace2f1?ixlib: rb-1.2.1&ixid: MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "alt": "beautiful cat"
+    },
+    "favoured": false,
+    "color": "grey",
+    "gender": "female"
+  },
+  {
+    "id": 2,
+    "name": "Ethan",
+    "phone": "333-333-3333",
+    "email": "laith@hotmail.com",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1607604362217-ef3cff7f865b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "alt": "beautiful cat"
+    },
+    "favoured": false,
+    "color": "grey",
+    "gender": "male"
+  },
+  {
+    "id": 3,
+    "name": "Holly",
+    "phone": "333-333-3333",
+    "email": "laith@hotmail.com",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1612258644055-d0ed1fa446f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "alt": "beautiful cat"
+    },
+    "favoured": false,
+    "color": "grey",
+    "gender": "female"
+  },
+  {
+    "id": 4,
+    "name": "Kevin",
+    "phone": "333-333-3333",
+    "email": "laith@hotmail.com",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1583324459940-80eafd70a31e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "alt": "beautiful cat"
+    },
+    "favoured": false,
+    "color": "grey",
+    "gender": "male"
+  },
+  {
+    "id": 5,
+    "name": "Rachel",
+    "phone": "333-333-3333",
+    "email": "laith@hotmail.com",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1491833485966-73cfb9ccea53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "alt": "beautiful cat"
+    },
+    "favoured": false,
+    "color": "grey",
+    "gender": "female"
+  }
+]

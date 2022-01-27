@@ -1,0 +1,48 @@
+.card {
+  width: 16rem;
+  height: 34.3rem;
+  color: rgb(97 8 97);
+  text-align: center;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: .1rem .1rem 1rem rgb(0 0 0 / 48.6%);
+}
+
+.card-header {
+  height: 70%;
+  padding: 0;
+  position: relative;
+}
+
+.heart {
+  bottom: 85%;
+  left: 78%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 100%;
+  background-color: rgb(255 255 255 / 67.8%);
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.heart img {
+  width: 1.75rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: .5rem 0;
+}
+
+.card p {
+  margin: 0;
+}
