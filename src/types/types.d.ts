@@ -14,6 +14,5 @@ interface ICat {
   favoured: boolean;
   color?: string;
   gender?: string;
-  updateFavourite?: (index: number, favoured: boolean) => void;
-  index?: number;
+  index: number;
 }
