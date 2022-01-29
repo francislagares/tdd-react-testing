@@ -1,6 +1,6 @@
-# React-TypeScript-Starter
+# TDD-React-Testing
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/francislagares/react-typescript-starter/Tests?style=for-the-badge&labelColor=black&logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/francislagares/tdd-react-testing/Tests?style=for-the-badge&labelColor=black&logo=github)
 
 
 ## Built with
@@ -34,7 +34,7 @@
 - Clone the repo
 
   ```bash
-  $ git clone https://github.com/francislagares/react-typescript-starter.git
+  $ git clone https://github.com/francislagares/tdd-react-testing.git
   ```
 
 - Install the dependencies by running the following command.
