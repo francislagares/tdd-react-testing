@@ -1,11 +1,16 @@
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Pets from './Pets';
+import { PetsContextProvider } from 'context/PetsContext';
 import { server } from 'mocks/server';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-// eslint-disable-next-line @typescript-eslint/no-empty-function
-beforeEach(() => render(<Pets />));
+
+beforeEach(() =>
+  render(
+    <PetsContextProvider>
+      <Pets />
+    </PetsContextProvider>,
+  ),
+);
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());

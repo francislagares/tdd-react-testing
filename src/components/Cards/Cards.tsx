@@ -1,20 +1,9 @@
-import React from 'react';
 import Card from 'components/Card/Card';
+import { usePetsContext } from 'context/PetsContext';
 import './Cards.styles.css';
 
-interface IProps {
-  cats: ICat[];
-  setCats?: React.Dispatch<React.SetStateAction<ICat[]>>;
-}
-
-const Cards = ({ cats, setCats }: IProps) => {
-  const updateFavourite = (index: number, favoured: boolean) => {
-    const updatedCats = [...cats];
-    updatedCats[index].favoured = favoured;
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    setCats(updatedCats);
-  };
+const Cards = () => {
+  const { cats } = usePetsContext();
 
   const renderCats = cats.map((cat: ICat, index) => (
     <Card
@@ -24,7 +13,6 @@ const Cards = ({ cats, setCats }: IProps) => {
       email={cat.email}
       image={cat.image}
       favoured={cat.favoured}
-      updateFavourite={updateFavourite}
       index={index}
     />
   ));

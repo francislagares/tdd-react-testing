@@ -13,6 +13,7 @@ interface IFilterProps {
     }>
   >;
 }
+
 const Filter = ({ filters, setFilters }: IFilterProps) => (
   <div className='pet-filter-container'>
     <div className='filter-container'>

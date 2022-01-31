@@ -1,22 +1,20 @@
-import React, { useState } from 'react';
-import './Card.styles.css';
+import { useState } from 'react';
 import heartFilled from 'assets/svgs/heartFilled.svg';
 import heartOutlined from 'assets/svgs/heartOutlined.svg';
+import { usePetsContext } from 'context/PetsContext';
+import './Card.styles.css';
 
-const Card = ({
-  name,
-  phone,
-  email,
-  image,
-  favoured = false,
-  updateFavourite,
-  index,
-}: ICat) => {
+const Card = ({ name, phone, email, image, favoured = false, index }: ICat) => {
+  const { cats, setCats } = usePetsContext();
   const [isFavoured, setIsFavoured] = useState(favoured);
 
+  const updateFavourite = (index: number, favoured: boolean) => {
+    const updatedCats = [...cats];
+    updatedCats[index].favoured = favoured;
+    setCats(updatedCats);
+  };
+
   const toggleFavoured = () => {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     updateFavourite(index, !isFavoured);
     setIsFavoured(!isFavoured);
   };
